@@ -1,5 +1,7 @@
 from app.data import DATABASE_SCORES
 
+# Scoring logic derived with help from Kiro trade-off analysis
+# Kiro suggested 4-dimension framework, adapted to 3 dimensions for simplicity
 def calculate_weights(traffic, complex_queries, beginner):
     return {
         "scalability": 2 if traffic == "yes" else 1,
@@ -7,6 +9,7 @@ def calculate_weights(traffic, complex_queries, beginner):
         "ops": 2 if beginner == "yes" else 1
     }
 
+# Evaluation algorithm based on Kiro's weighted scoring framework
 def evaluate_databases(traffic, complex_queries, beginner):
     weights = calculate_weights(traffic, complex_queries, beginner)
 

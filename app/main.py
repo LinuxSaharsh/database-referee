@@ -3,6 +3,8 @@ from fastapi.responses import HTMLResponse
 from app.logic import evaluate_databases
 from app.explanations import explain
 
+# FastAPI application structure designed with Kiro
+# Complete implementation from routes to HTML developed collaboratively
 app = FastAPI(title="Database Referee")
 
 @app.get("/", response_class=HTMLResponse)
