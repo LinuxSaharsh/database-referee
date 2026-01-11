@@ -6,7 +6,8 @@ A tiny FastAPI app that recommends a database (RDS, DynamoDB, or Aurora) based o
 
 | Input Form | Results Page |
 | :---: | :---: |
-| ![Input Form](app/image/input.png) | ![Results Page](app/image/output.png) |
+| ![Input Form](app/image/input.png) |
+| ![Results Page](app/image/output.png) |
 
 ## Quickstart
 
