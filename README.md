@@ -2,6 +2,12 @@
 
 A tiny FastAPI app that recommends a database (RDS, DynamoDB, or Aurora) based on three simple answers, and explains the trade-offs.
 
+## Screenshots
+
+| Input Form | Results Page |
+| :---: | :---: |
+| ![Input Form](app/image/input.png) | ![Results Page](app/image/output.png) |
+
 ## Quickstart
 
 1. Install dependencies:
